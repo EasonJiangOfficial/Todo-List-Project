@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width0=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="index.js">
+    <title>Todo List</title>
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+        <div id="add_button" onClick="addItem()">
+            <div id="h-line"></div>
+            <div id="v-line"></div>
+        </div>
+    </header>
+    <section id="item_modal">
+        <h1>Todo Item</h1>
+        <div id="modal_form">
+            <form>
+                <div id="task_date">
+                    <label for="Task">Task:</label>
+                    <input type="text" id="Task" name="Task" value="">
+                    <label for="DueDate">Due Date:</label>
+                    <input type="text" id="DueDate" name="DueDate" value="">
+                </div>
+                <input type="submit" value="Add">
+            </form> 
+        </div>
+    </section>
+    <main>
+        <section id="list_section">
+
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
